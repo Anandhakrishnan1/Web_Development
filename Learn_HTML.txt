@@ -1,0 +1,82 @@
+HTML- Hypertext markup language
+      standard markup language for creating Web pages
+      describes the structure of a Web page
+
+
+    eg:
+
+        <!DOCTYPE html> <!--defines that this document is an HTML5 document -->
+        <html> <!-- root element of an HTML page -->
+        <head> <!-- contains meta information about the HTML page -->
+        <title>Page Title</title> <!-- specifies a title for the HTML page -->
+        </head>
+        <body> <!-- defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
+        <h1>My First Heading</h1> <!-- defines a large heading -->
+        <p>My first paragraph.</p> <!-- defines a paragraph -->
+        </body>
+        </html>
+
+* Save file as filename.html or filename.htm
+
+
+
+HTML Headings
+    HTML headings are defined with the <h1> to <h6> tags.
+    <h1> defines the most important heading. <h6> defines the least important heading.
+    
+    eg:
+        
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+   
+        
+        
+HTML Paragraphs
+    HTML paragraphs are defined with the <p> tag.
+    eg:
+        <p>My first paragraph.</p>
+
+
+
+HTML Links
+    HTML links are defined with the <a> tag:
+    eg:
+        <a href="https://www.google.com">This is a link</a>
+       
+
+HTML Images
+    HTML images are defined with the <img> tag.
+    The source file (src), alternative text (alt), width, and height are provided as attributes.
+    eg:
+        <img src="google.jpg" alt="google.com" width="104" height="142">
+        
+        
+HTML Elements
+    The HTML element is everything from the start tag to the end tag.
+    eg:
+        <h1>My First Heading</h1>
+    
+    HTML elements can be nested (this means that elements can contain other elements).
+    Some HTML elements will display correctly, even if you forget the end tag.
+    HTML is Not Case Sensitive
+    
+
+    
+Empty HTML Elements
+    HTML elements with no content are called empty elements.
+    The <br> tag defines a line break, and is an empty element without a closing tag.
+    eg:
+        <p>This is a <br> paragraph with a line break.</p>
+
+
+
+
+    
+        
+        
+  
+
+
+
+        
